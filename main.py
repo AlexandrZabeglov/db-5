@@ -14,7 +14,7 @@ print("Для удаления номера телефона существую�
 print("Для удаления существующего клиента введите  8")
 print("Для поиска существующего клиента по его данным введите  9")
 
-conn = psycopg2.connect(database="clients_db", user="postgres", password="Zabegalov1", host="localhost", port=5432)
+conn = psycopg2.connect(database="clients_db", user="postgres", password="***", host="localhost", port=5432)
 
 
 def create_tables():
